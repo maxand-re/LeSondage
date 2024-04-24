@@ -1,0 +1,13 @@
+@import "variables";
+@import "fonts";
+@import "reset";
+
+/**
+ * Utils
+ */
+
+.container {
+  max-width: $lg;
+  padding-inline: 16px;
+  margin-inline: auto;
+}

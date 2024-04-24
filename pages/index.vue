@@ -1,11 +1,19 @@
 <script setup lang="ts">
-const route = useRoute()
+useHead({
+  title: "LeSondage - Liste des sondages"
+})
 </script>
 
 <template>
-  <div>
-    <h1>Nuxt Routing set up successfully!</h1>
-    <p>Current route: {{ route.path }}</p>
-    <a href="https://nuxt.com/docs/getting-started/routing" target="_blank">Learn more about Nuxt Routing</a>
+  <div class="container">
+    <h1>Sondages en cours</h1>
+    <h1>Derniers sondages</h1>
+    <AppButton>
+      Primary
+    </AppButton>
+
+    <AppButton secondary>
+      Secondary
+    </AppButton>
   </div>
 </template>

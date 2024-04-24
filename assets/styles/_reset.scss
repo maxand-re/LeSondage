@@ -1,0 +1,16 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  background-color: $dark-blue;
+  color: $primary-text
+}
+
+// Reset all
+* {
+  box-sizing: border-box;
+  font-family: "DIN Round", sans-serif;
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
