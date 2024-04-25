@@ -11,3 +11,8 @@
   padding-inline: 16px;
   margin-inline: auto;
 }
+
+::selection {
+  background-color: $gray;
+  color: $white;
+}

@@ -70,6 +70,10 @@ header {
       color: $primary-text;
     }
 
+    &:active {
+      background-color: lighten($dark-gray, 2);
+    }
+
     &.active {
       background-color: $dark-gray;
       border: 2px solid $line;
