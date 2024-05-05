@@ -1,0 +1,27 @@
+{
+  "version": "5",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1714675292028,
+      "tag": "0000_groovy_silver_centurion",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1714717654568,
+      "tag": "0001_slim_mercury",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1714929742713,
+      "tag": "0002_messy_sir_ram",
+      "breakpoints": true
+    }
+  ]
+}

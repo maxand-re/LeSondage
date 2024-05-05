@@ -4,18 +4,28 @@
   "type": "module",
   "scripts": {
     "build": "nuxt build",
-    "dev": "nuxt dev",
+    "nuxt-dev": "nuxt dev",
+    "dev": "bun --bun run nuxt-dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "db:generate": "drizzle-kit generate:sqlite",
+    "db:migrate": "drizzle-kit push:sqlite"
   },
   "dependencies": {
-    "drizzle-orm": "^0.30.9",
+    "@libsql/client": "^0.6.0",
+    "@nuxt/eslint": "^0.3.10",
+    "drizzle-orm": "^0.30.10",
+    "next-auth": "4.21.1",
     "nuxt": "^3.11.2",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0"
   },
   "devDependencies": {
-    "drizzle-kit": "^0.20.17"
+    "@sidebase/nuxt-auth": "^0.7.2",
+    "bun-types": "^1.1.6",
+    "drizzle-kit": "^0.20.17",
+    "eslint": "^9.2.0",
+    "typescript": "^5.4.5"
   }
 }
